@@ -1,0 +1,371 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Column1.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Column1.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column2.HeaderText" xml:space="preserve">
+    <value>Ürün Adı</value>
+  </data>
+  <data name="Column2.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Column2.Width" type="System.Int32, mscorlib">
+    <value>315</value>
+  </data>
+  <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column3.HeaderText" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="Column3.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Column3.Width" type="System.Int32, mscorlib">
+    <value>225</value>
+  </data>
+  <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column4.HeaderText" xml:space="preserve">
+    <value>Alış Fiyatı</value>
+  </data>
+  <data name="Column4.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Column4.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <metadata name="Column5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column5.HeaderText" xml:space="preserve">
+    <value>Satış Fiyatı</value>
+  </data>
+  <data name="Column5.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Column5.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <metadata name="Column6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column6.HeaderText" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="Column6.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Column6.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="Column7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column7.HeaderText" xml:space="preserve">
+    <value>Barkod</value>
+  </data>
+  <data name="Column7.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Column7.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <metadata name="Column8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column8.HeaderText" xml:space="preserve">
+    <value>KDV</value>
+  </data>
+  <data name="Column8.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Column8.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <metadata name="Column9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column9.HeaderText" xml:space="preserve">
+    <value>Marka</value>
+  </data>
+  <data name="Column9.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Column9.Width" type="System.Int32, mscorlib">
+    <value>225</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dataGridView1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dataGridView1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="dataGridView1.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1493, 532</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ID.HeaderText" xml:space="preserve">
+    <value>Column1</value>
+  </data>
+  <data name="ID.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ID.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>11, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1493, 708</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10.2pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Stoker</value>
+  </data>
+  <data name="&gt;&gt;ID.Name" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="&gt;&gt;ID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column1.Name" xml:space="preserve">
+    <value>Column1</value>
+  </data>
+  <data name="&gt;&gt;Column1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column2.Name" xml:space="preserve">
+    <value>Column2</value>
+  </data>
+  <data name="&gt;&gt;Column2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column3.Name" xml:space="preserve">
+    <value>Column3</value>
+  </data>
+  <data name="&gt;&gt;Column3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column4.Name" xml:space="preserve">
+    <value>Column4</value>
+  </data>
+  <data name="&gt;&gt;Column4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column5.Name" xml:space="preserve">
+    <value>Column5</value>
+  </data>
+  <data name="&gt;&gt;Column5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column6.Name" xml:space="preserve">
+    <value>Column6</value>
+  </data>
+  <data name="&gt;&gt;Column6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column7.Name" xml:space="preserve">
+    <value>Column7</value>
+  </data>
+  <data name="&gt;&gt;Column7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column8.Name" xml:space="preserve">
+    <value>Column8</value>
+  </data>
+  <data name="&gt;&gt;Column8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column9.Name" xml:space="preserve">
+    <value>Column9</value>
+  </data>
+  <data name="&gt;&gt;Column9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
